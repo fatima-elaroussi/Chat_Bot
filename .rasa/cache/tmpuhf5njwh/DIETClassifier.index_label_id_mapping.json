@@ -1,0 +1,12 @@
+{
+  "0": "demander_date_debut_stage",
+  "1": "demander_date_fin_stage",
+  "2": "demander_duree_stage",
+  "3": "demander_encadrant_stage",
+  "4": "demander_horaires_stage",
+  "5": "demander_indemnisation_stage",
+  "6": "demander_lieu_stage",
+  "7": "demander_mission_stage",
+  "8": "demander_rapport_stage",
+  "9": "demander_soutenance_stage"
+}

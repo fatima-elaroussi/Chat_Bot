@@ -101,3 +101,32 @@ nlu:
     - What time is [math](subject) class?
     - Show me the schedule for [computer science](major)
     - When does the [fall](semester) semester start?
+   
+- intent: demander_duree_stage
+  examples: |
+    - Quelle est la durée du stage ?
+    - Combien de temps dure le stage ?
+    - Le stage dure combien de mois ?
+    - Quelle est la durée du stage ?
+    - Combien de temps dure le stage ?
+  
+- intent: demander_date_debut_stage
+  examples: |
+    - Quand débute le stage ?
+    - À quelle date le stage commence-t-il ?
+    - Le stage commence à quelle date ?
+    - Quand débute le stage ?
+    - À quelle date le stage commence-t-il ?
+    
+- intent: demander_date_fin_stage
+  examples: |
+    - Quand se termine le stage ?
+    - Quelle est la date de fin de stage ?
+    - Le stage finit quand ?
+
+- intent: demander_rapport_stage
+  examples: |
+    - Dois-je rendre un rapport de stage ?
+    - Un rapport de stage est-il nécessaire ?
+    - Est-ce qu'il faut écrire un rapport ?
+  

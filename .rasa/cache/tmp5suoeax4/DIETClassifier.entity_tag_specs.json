@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-major",
+      "2": "I-major",
+      "3": "L-major",
+      "4": "U-major",
+      "5": "B-semester",
+      "6": "I-semester",
+      "7": "L-semester",
+      "8": "U-semester",
+      "9": "B-subject",
+      "10": "I-subject",
+      "11": "L-subject",
+      "12": "U-subject",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-major": 1,
+      "I-major": 2,
+      "L-major": 3,
+      "U-major": 4,
+      "B-semester": 5,
+      "I-semester": 6,
+      "L-semester": 7,
+      "U-semester": 8,
+      "B-subject": 9,
+      "I-subject": 10,
+      "L-subject": 11,
+      "U-subject": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
