@@ -101,3 +101,29 @@ nlu:
     - What time is [math](subject) class?
     - Show me the schedule for [computer science](major)
     - When does the [fall](semester) semester start?
+
+- intent: ask_majors
+  examples: |
+    - Quelles filières sont disponibles ?
+    - Quelles sont les options de spécialisation ?
+    - Pouvez-vous me dire quelles sont les filières proposées ?
+    - Quels sont les programmes disponibles ?
+    - Je veux savoir quelles filières je peux choisir.
+
+- intent: ask_news
+  examples: |
+    - Quelles sont les dernières actualités de l'université ?
+    - Y a-t-il des événements à venir ?
+    - Quoi de neuf à l'université ?
+    - Quels sont les derniers événements ?
+    - Avez-vous des annonces récentes ?
+
+- intent: ask_filieres
+  examples: |
+    - Quelles sont les filières disponibles à l'EST de Salé ?
+    - Quels programmes propose l'EST de Salé ?
+    - Quelles sont les formations disponibles ?
+    - Quelles sont les options d'études à l'EST de Salé ?
+    - Comment choisir ma filière à l'EST de Salé ?
+    - Quels sont les cursus proposés à l'EST de Salé ?
+    - Quelles sont les spécialités disponibles à l'EST de Salé ?
