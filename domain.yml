@@ -12,6 +12,11 @@ intents:
   - ask_schedule
   - ask_majors
   - ask_news
+  - demander_duree_stage
+  - demander_date_debut_stage
+  - demander_date_fin_stage
+  - demander_rapport_stage
+  - ask_filieres
 
 responses:
   utter_greet:
@@ -39,6 +44,31 @@ responses:
   
   utter_schedule:
     - text: "Class schedules can be found on the student portal. Fall semester starts September 1st."
+  
+  utter_duree_stage:
+    - text: "La durée du stage est de 2 mois."
+
+  utter_date_debut_stage:
+    - text: "Le stage commence le 1er juin 2024."
+
+  utter_date_fin_stage:
+    - text: "Le stage se termine le 31 juillet 2024."
+
+  utter_rapport_stage:
+    - text: "Oui, un rapport de stage est obligatoire et doit être remis en fin de stage."
+    
+
+  utter_majors:
+    - text: "Les filières disponibles sont : Informatique, Mathématiques, Physique, et Littérature. Vous pouvez consulter les détails sur university.edu/majors."
+
+  utter_news:
+    - text: "Les dernières actualités de l'université sont disponibles sur university.edu/news. Voici quelques événements à venir : [liste des événements]."
+
+  utter_filieres:
+    - text: "Les filières disponibles à l'EST de Salé sont réparties en plusieurs départements : Département 3M (Métiers du Management et du Marketing), Département GUE (Génie Urbain et Environnement), Département INFO (Informatique), Département MI (Mathématiques et Informatique), et Département TM (Techniques de Management). Pour plus de détails, consultez le site officiel de l'EST de Salé."
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -39,3 +39,39 @@ stories:
   steps:
   - intent: ask_schedule
   - action: utter_schedule
+
+- story: demander durée stage
+  steps:
+  - intent: demander_duree_stage
+  - action: utter_duree_stage
+
+- story: demander date début stage
+  steps:
+  - intent: demander_date_debut_stage
+  - action: utter_date_debut_stage
+
+- story: demander date fin stage
+  steps:
+  - intent: demander_date_fin_stage
+  - action: utter_date_fin_stage
+
+- story: demander rapport stage
+  steps:
+  - intent: demander_rapport_stage
+  - action: utter_rapport_stage
+
+- story: majors info
+  steps:
+  - intent: ask_majors
+  - action: utter_majors
+
+- story: news info
+  steps:
+  - intent: ask_news
+  - action: utter_news
+
+# Histoire pour répondre aux questions sur les filières
+- story: Répondre aux questions sur les filières
+  steps:
+    - intent: ask_filieres
+    - action: utter_filieres
