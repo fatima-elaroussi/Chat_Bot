@@ -12,6 +12,7 @@ intents:
   - ask_schedule
   - ask_majors
   - ask_news
+  - ask_filieres
 
 responses:
   utter_greet:
@@ -39,6 +40,18 @@ responses:
   
   utter_schedule:
     - text: "Class schedules can be found on the student portal. Fall semester starts September 1st."
+
+  utter_majors:
+    - text: "Les filières disponibles sont : Informatique, Mathématiques, Physique, et Littérature. Vous pouvez consulter les détails sur university.edu/majors."
+
+  utter_news:
+    - text: "Les dernières actualités de l'université sont disponibles sur university.edu/news. Voici quelques événements à venir : [liste des événements]."
+
+  utter_filieres:
+    - text: "Les filières disponibles à l'EST de Salé sont réparties en plusieurs départements : Département 3M (Métiers du Management et du Marketing), Département GUE (Génie Urbain et Environnement), Département INFO (Informatique), Département MI (Mathématiques et Informatique), et Département TM (Techniques de Management). Pour plus de détails, consultez le site officiel de l'EST de Salé."
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
