@@ -12,6 +12,10 @@ intents:
   - ask_schedule
   - ask_majors
   - ask_news
+  - demander_duree_stage
+  - demander_date_debut_stage
+  - demander_date_fin_stage
+  - demander_rapport_stage
   - ask_filieres
 
 responses:
@@ -40,6 +44,19 @@ responses:
   
   utter_schedule:
     - text: "Class schedules can be found on the student portal. Fall semester starts September 1st."
+  
+  utter_duree_stage:
+    - text: "La durée du stage est de 2 mois."
+
+  utter_date_debut_stage:
+    - text: "Le stage commence le 1er juin 2024."
+
+  utter_date_fin_stage:
+    - text: "Le stage se termine le 31 juillet 2024."
+
+  utter_rapport_stage:
+    - text: "Oui, un rapport de stage est obligatoire et doit être remis en fin de stage."
+    
 
   utter_majors:
     - text: "Les filières disponibles sont : Informatique, Mathématiques, Physique, et Littérature. Vous pouvez consulter les détails sur university.edu/majors."

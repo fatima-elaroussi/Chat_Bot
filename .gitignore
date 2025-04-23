@@ -1,0 +1,58 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Rasa cache and model files
+.cache/
+cache.db
+models/
+*.tar.gz
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Rasa interactive learning conversations exports
+conversations.yml
+
+# Temporary files
+tmp/
+temp/
+
+# Environment variables file (optional)
+.env
+
+# node_modules (if you use frontend or UI elements)
+node_modules/
+
+# Local database files
+*.db
+
+# IDE settings (optional)
+.idea/
+".rasa/" 

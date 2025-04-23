@@ -1,0 +1,15 @@
+{
+  "0": "affirm",
+  "1": "ask_enrollment",
+  "2": "ask_schedule",
+  "3": "bot_challenge",
+  "4": "demander_date_debut_stage",
+  "5": "demander_date_fin_stage",
+  "6": "demander_duree_stage",
+  "7": "demander_rapport_stage",
+  "8": "deny",
+  "9": "goodbye",
+  "10": "greet",
+  "11": "mood_great",
+  "12": "mood_unhappy"
+}
