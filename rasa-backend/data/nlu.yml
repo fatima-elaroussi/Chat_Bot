@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - ask_question
 
 - intent: goodbye
   examples: |
@@ -156,3 +157,17 @@ nlu:
     - Comment choisir ma filière à l'EST de Salé ?
     - Quels sont les cursus proposés à l'EST de Salé ?
     - Quelles sont les spécialités disponibles à l'EST de Salé ?
+
+
+- intent: ask_question
+  examples: |
+    - Comment faire la préinscription ?
+    - Quels diplômes propose l'EST ?
+    - Où puis-je trouver le calendrier académique ?
+    - Comment obtenir une attestation de scolarité ?
+    - Que faire en cas de perte de la carte d'étudiant ?
+    - Quels sont les horaires de la bibliothèque ?
+    - Quelles sont les conditions d'accès à la licence professionnelle ?
+    - Est-ce qu'il y a des cours en ligne à l'EST ?
+    - Quels logiciels utilise-t-on en génie informatique ?
+    - Y a-t-il un service médical à l'école ?

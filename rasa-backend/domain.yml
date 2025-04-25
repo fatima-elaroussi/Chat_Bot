@@ -17,6 +17,7 @@ intents:
   - demander_date_fin_stage
   - demander_rapport_stage
   - ask_filieres
+  - ask_question
 
 responses:
   utter_greet:
@@ -67,6 +68,8 @@ responses:
   utter_filieres:
     - text: "Les filières disponibles à l'EST de Salé sont réparties en plusieurs départements : Département 3M (Métiers du Management et du Marketing), Département GUE (Génie Urbain et Environnement), Département INFO (Informatique), Département MI (Mathématiques et Informatique), et Département TM (Techniques de Management). Pour plus de détails, consultez le site officiel de l'EST de Salé."
 
+actions:
+  - action_get_answer
 
 
 session_config:

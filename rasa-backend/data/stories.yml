@@ -75,3 +75,8 @@ stories:
   steps:
     - intent: ask_filieres
     - action: utter_filieres
+
+- story: répondre à une question générale
+  steps:
+    - intent: ask_question
+    - action: action_get_answer
