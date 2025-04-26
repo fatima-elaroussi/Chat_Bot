@@ -40,6 +40,11 @@
 #  username: username
 #  password: password
 #  queue: queue
+
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+
 rest:
   cors_origins:
     - "*"  # For development - restrict this in production
